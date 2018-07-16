@@ -1,0 +1,44 @@
+{
+    "authors": [
+        {
+            "email": "kirk5bucuk@gmail.com",
+            "homepage": "https://github.com/ogunkarakus",
+            "name": "Ogün Karakuş",
+            "role": "developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Karakus\\Cloudflare\\": "src"
+        }
+    },
+    "description": "Loads IP blocks of Cloudflare to trusted proxies for Laravel.",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Karakus\\Cloudflare\\TrustedProxyServiceProvider"
+            ]
+        }
+    },
+    "homepage": "https://github.com/ogunkarakus",
+    "keywords": [
+        "cloudflare",
+        "laravel",
+        "load balancing",
+        "proxy",
+        "trusted proxy"
+    ],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "name": "karakus/laravel-cloudflare",
+    "prefer-stable": true,
+    "require": {
+        "illuminate/console": "5.6.*",
+        "illuminate/http": "5.6.*",
+        "illuminate/support": "5.6.*",
+        "ixudra/curl": "6.16.*"
+    },
+    "support": {
+        "email": "kirk5bucuk@gmail.com"
+    }
+}
