@@ -10,7 +10,9 @@ This package supports Laravel 5.6 or newer.
 # Usage
 
 Include this package to your project dependencies.
+
 Laravel "auto-discovery" feature, discovers automatically this package.
+
 You don't need to add this package to your service providers.
 
 Open "**app/Http/Kernel.php**" then add this line to "**middleware**" array.
@@ -20,9 +22,11 @@ Open "**app/Http/Kernel.php**" then add this line to "**middleware**" array.
 # Refreshing the Cache
 
 This package basically retrieves Cloudflare's IP blocks, and stores in cache.
+
 When request comes, loads Cloudflare's IP blocks to trusted proxies.
 
 That's why, you'll need to every day refresh the cache.
+
 You can use the following command for this.
 
 ``php artisan cloudflare:reload``
