@@ -1,4 +1,3 @@
-
 # Trust Cloudflare's Proxies for Laravel
 
 Loads IP blocks of Cloudflare to trusted proxies for Laravel.
