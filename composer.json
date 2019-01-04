@@ -33,9 +33,9 @@
     "name": "karakus/laravel-cloudflare",
     "prefer-stable": true,
     "require": {
-        "illuminate/console": "5.6.*",
-        "illuminate/http": "5.6.*",
-        "illuminate/support": "5.6.*",
+        "illuminate/console": "^5.6",
+        "illuminate/http": "^5.6",
+        "illuminate/support": "^5.6",
         "ixudra/curl": "6.16.*"
     },
     "support": {
